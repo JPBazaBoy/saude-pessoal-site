@@ -1,0 +1,14 @@
+:root { --fundo:#F4F3EF; --cartao:#FFFFFF; --texto:#17181A; --texto2:#3E3E43; --rotulo:#626267; --borda:#DCD9D2; --acento:#2F7A6E; --sombra:0 1px 2px rgba(0,0,0,.06); }
+@media (prefers-color-scheme: dark) { :root { --fundo:#101113; --cartao:#1A1B1E; --texto:#F2F2F0; --texto2:#C9C9CC; --rotulo:#9C9CA3; --borda:#36383D; --acento:#5DB3A4; --sombra:none; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--fundo); color:var(--texto); font:16px/1.55 -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", sans-serif; }
+main { max-width:680px; margin:0 auto; padding:32px 20px 64px; }
+h1 { font-size:32px; line-height:1.15; margin:8px 0 6px; }
+h2 { font-size:17px; margin:0 0 8px; }
+p, li { color:var(--texto2); }
+.sub { color:var(--rotulo); font-size:14px; }
+.card { background:var(--cartao); border-radius:20px; padding:18px 20px; margin:12px 0; box-shadow:var(--sombra); }
+a { color:var(--acento); }
+nav { display:flex; gap:18px; font-size:14px; }
+ul { padding-left:20px; }
+footer { color:var(--rotulo); font-size:13px; margin-top:28px; }
